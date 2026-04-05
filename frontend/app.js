@@ -1,4 +1,4 @@
-const API = "https://tradevision-backend-1dva.onrender.com";
+const API = "https://tradevision-backend-1dva.onrender.com/api";
 
 // ------------------ PROFILE ------------------
 function loadProfile() {
