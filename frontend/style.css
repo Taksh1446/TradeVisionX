@@ -1,11 +1,75 @@
 body {
-    background-color: #0d1117;
-    color: white;
-    text-align: center;
+    margin: 0;
     font-family: Arial;
+    background: #0d1117;
+    color: white;
 }
 
-input, button {
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #161b22;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    color: #58a6ff;
+}
+
+.sidebar button {
+    margin-top: 20px;
     padding: 10px;
-    margin: 5px;
+    width: 100%;
+    background: red;
+    border: none;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 5px 0 0;
+    background: #238636;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #30363d;
 }
