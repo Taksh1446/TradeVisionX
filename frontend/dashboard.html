@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TradeVisionX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadProfile(); loadMarket();">
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>TradeVisionX</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div class="main">
+
+        <div class="topbar">
+            <h3>👋 <span id="username"></span></h3>
+            <h3>💰 ₹<span id="balance"></span></h3>
+        </div>
+
+        <!-- 🔍 STOCK SEARCH -->
+        <div class="card">
+            <h3>Search Stock</h3>
+            <input id="search" placeholder="Enter symbol (AAPL)">
+            <button onclick="getPrice()">Get Price</button>
+            <p id="price"></p>
+        </div>
+
+        <!-- 📈 BUY -->
+        <div class="card">
+            <h3>Trade</h3>
+            <input id="symbol" placeholder="Symbol">
+            <input id="qty" placeholder="Quantity">
+            <button onclick="buyStock()">Buy</button>
+            <button onclick="sellStock()">Sell</button>
+        </div>
+
+        <!-- 📊 PORTFOLIO -->
+        <div class="card">
+            <h3>Your Portfolio</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stock</th>
+                        <th>Qty</th>
+                        <th>Avg Price</th>
+                    </tr>
+                </thead>
+                <tbody id="portfolio"></tbody>
+            </table>
+        </div>
+
+        <!-- 📉 CHART -->
+        <div class="card">
+            <iframe 
+                src="https://s.tradingview.com/widgetembed/?symbol=NASDAQ:AAPL&theme=dark"
+                width="100%" height="400">
+            </iframe>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
