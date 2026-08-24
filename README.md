@@ -36,22 +36,27 @@ The project was built to explore real-world backend engineering problems — con
 ### 🔑 Sign In
 Secure login screen with JWT-based session handling.
 
-![Sign In](./screenshots/01-login.png)
+
+<img width="2878" height="1512" alt="Screenshot 2026-08-24 203847" src="https://github.com/user-attachments/assets/51134666-0812-4ae2-87ea-ed2071621f2b" />
+
+
 
 ### 🏠 Dashboard
 Wallet balance, portfolio value, P&L, recent trades, and performance overview at a glance.
 
-![Dashboard](./screenshots/02-dashboard.png)
+<img width="2808" height="1564" alt="Screenshot 2026-08-24 203901" src="https://github.com/user-attachments/assets/2bef2d07-9984-44f7-92f2-0967adfff914" />
+
 
 ### 💹 Live Market
 Real-time candlestick charts with buy/sell execution panel.
 
-![Live Market](./screenshots/03-market.png)
+<img width="2808" height="1500" alt="Screenshot 2026-08-24 203927" src="https://github.com/user-attachments/assets/a15a85ef-b74c-4215-aa8a-db70b96187fd" />
+
 
 ### 🤖 AI Analysis
 ML-powered price prediction with trend, risk score, and price targets.
+<img width="2878" height="1500" alt="Screenshot 2026-08-24 203945" src="https://github.com/user-attachments/assets/a4c6c284-33ca-47cd-a49e-ccd9b04b5183" />
 
-![AI Analysis](./screenshots/04-ai-analysis.png)
 
 ---
 
