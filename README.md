@@ -210,9 +210,9 @@ tradevisionx/
 **Taksh Patel**
 B.Tech ICT, Pandit Deendayal Energy University (Class of 2028)
 
-- LinkedIn: `<your-linkedin-url>`
-- GitHub: `<your-github-url>`
-- LeetCode: `<your-leetcode-url>`
+- LinkedIn: `www.linkedin.com/in/taksh-samirkumar-patel-6a6b97325`
+- GitHub: `https://github.com/Taksh1446`
+- LeetCode: `https://leetcode.com/u/5EWSbJZA6M/`
 
 ---
 
